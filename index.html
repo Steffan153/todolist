@@ -15,7 +15,8 @@
        <h1>To-Do List</h1><br>
        <input id="task" onkeydown="if(event.keyCode == 13) { $('#add').click(); }" style="width: 750px !important; display: inline-block !important" class="form-control">
        <button id="add" class="btn btn-primary">Add</button><br><br>
-       <ul id="tasks"></ul>
+       <ul id="tasks"></ul><br><br>
+       <button id="clear" onclick="$('li').hide()" class="btn btn-primary">Clear All</button>
      </div>
   </body>
 </html>
