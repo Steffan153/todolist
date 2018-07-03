@@ -1,3 +1,13 @@
 .container {
   margin-top: 20px !important;
 }
+ul {
+  list-style-type: none;
+}
+li {
+  width: 500px;
+  background-color: lime;
+  color: blue;
+  border: 7px solid blue;
+  font-weight: bold;
+}
