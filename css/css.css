@@ -10,4 +10,6 @@ li {
   color: blue;
   border: 7px solid blue;
   font-weight: bold;
+  border-radius: 30px;
+  padding: 10px;
 }
