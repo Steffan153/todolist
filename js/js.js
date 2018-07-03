@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
 });
 function toggleDone(obj, check) {
-  if(check.prop('checked', true)) {
+  if(check.prop('checked')) {
     obj.css('text-decoration', 'strike-through');
   } else {
     obj.css('text-decoration', 'none');
